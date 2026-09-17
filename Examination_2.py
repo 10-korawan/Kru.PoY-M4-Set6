@@ -6,4 +6,8 @@
 
 
 # นักเรียนเขียนโค้ดต่อจากบรรทัดนี้
-height = int(input())
+height = int(input("ตรวจสอบความสูงสำหรับเครื่องเล่น: "))
+if height >=140:
+  print("can Ride")
+else:
+  print("cannot Ride")
